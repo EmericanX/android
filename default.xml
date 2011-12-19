@@ -5,7 +5,7 @@
           fetch="https://android.googlesource.com" />
           
   <remote  name="rootz"
-     fetch="git://github.com/OMFGB" />
+     fetch="git://github.com/RootzBoat/" />
 
   <default  remote="goo"
 	   revision="android-4.0.3_r1"
