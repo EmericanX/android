@@ -30,6 +30,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="rootz" revision="master"/>
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
+  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/busybox" name="android_external_busybox" remote="rootz" revision="ics"/>
