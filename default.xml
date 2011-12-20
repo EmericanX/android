@@ -244,6 +244,7 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/extras/su" name="su-binary" remote="rootz" revision="master"/>
+  <project path="system/extras/busybox" name="android_external_busybox" remote="rootz" revision="ics"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
