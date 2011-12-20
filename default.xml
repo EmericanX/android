@@ -15,7 +15,7 @@
 	   revision="refs/tags/android-4.0.3_r1"
 	    />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform_build" remote="rootz" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
    <project path="abi/cpp" name="platform/abi/cpp" />
