@@ -15,7 +15,7 @@
 	   revision="refs/tags/android-4.0.3_r1"
 	    />
 
-  <project path="build" name="platform_build" remote="rootz" revision="master">
+  <project path="build" name="android_build" remote="rootz" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
    <project path="abi/cpp" name="platform/abi/cpp" />
@@ -49,6 +49,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="system/external/busybox" name="android_external_busybox" remote="rootz" revision="ics"/>
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
@@ -152,7 +153,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rootz" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -176,7 +177,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />  
-  <project path="packages/apps/Superuser" name="Superuser" remote="rootz" revision="master"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="rootz" revision="master"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -189,6 +190,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="rootz" revision="gingerbread" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -211,7 +213,6 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="rootz" revision="gingerbread" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -236,8 +237,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/extras/su" name="su-binary" remote="rootz" revision="master"/>
-  <project path="system/extras/busybox" name="android_external_busybox" remote="rootz" revision="ics"/>
+  <project path="system/extras/su" name="android_system_extras_su" remote="rootz" revision="master"/>
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
